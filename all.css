@@ -10,13 +10,14 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* background img */
+
 
 #headline {
     padding: 0.8em;
     color: white;
     font-family: Roboto, helvetica, arial, sans-serif;
     background-color: black;
+    /* responsive: Add stylistic images */
     background-image: url("http://googlesamples.github.io/web-fundamentals/samples/getting-started/your-first-multi-screen-site/hero.jpg");
     background-size: cover;
 }
