@@ -5,14 +5,21 @@
     <!-- responsive across multiple screen sizes and device types -->
     <!-- responsive - Add a viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- avoid user agent stylesheet from browser by normalise.css or reset.css -->
     <link rel="stylesheet" type='text/css' href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+
     <!-- responsive - Apply simple styling - font -->
     <link rel="stylesheet" type='text/css' href="http://fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic">
     <!-- <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto'> -->
+
     <!-- responsive - Apply simple styling - css -->
     <link rel="stylesheet" type='text/css' href="element.css">
     <link rel="stylesheet" type='text/css' href="id.css">
+
+    <!-- responsive - Set your first breakpoint for media queries -->
+    <link rel="stylesheet" type='text/css' href="min-600px.css" media="(min-width: 600px)">
+
     <title>CS256: Mobile Web development - structure</title>
 </head>
 
@@ -30,7 +37,7 @@
             </ul>
         </div>
         <form method="post" id="register">
-            <h2>Register for the launch</h2>
+            <h3>Register for the launch</h3>
             <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Thomas A Anderson" required>
             <label for="email">Email address</label>
@@ -58,9 +65,11 @@
         <h2>this is h2 inside div section3</h2>
         <p>this is p inside div section3</p>
     </div>
-    <footer>
-        <p>this is p inside footer</p>
-    </footer>
+    <div id="footline">
+        <footer>
+            <p>this is p inside footer</p>
+        </footer>
+    </div>
 </body>
 
 </html>
