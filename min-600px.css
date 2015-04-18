@@ -1,0 +1,28 @@
+/* responsive - Constrain the maximum width of the design for wide viewport */
+
+.container {
+    margin: auto;
+    max-width: 800px;
+}
+
+/* responsive - Increase the padding and increase text size for wide viewport */
+
+// it is good enough for now
+
+/* responsive - Increase the padding and increase text size for wide viewport */
+
+#blurb {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#register {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#headline br {
+    clear: both;
+}
