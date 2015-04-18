@@ -17,7 +17,21 @@
     margin-bottom: 0;
 }
 
+#headline #blurb {
+    font-size: 16px;
+}
+
 #headline #register {
-    background-color: rgba(57,177, 164, 0.7);
+    background-color: rgba(57, 177, 164, 0.7);
     padding: 1em;
+}
+
+#section2 {
+    color: black;
+    background-color: palevioletred;
+}
+
+#footline {
+    color: white;
+    background-color: hsl(8, 70%, 54%);
 }
