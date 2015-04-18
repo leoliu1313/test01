@@ -32,8 +32,10 @@ input {
 }
 
 /*
+ * p element shall be loaded in the late phase
+ * avoid overriding previous setting
+ */
+/*
 p {
 }
-// p element shall be loaded in the late phase
-// avoid overriding previous setting
 */
