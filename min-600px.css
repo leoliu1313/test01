@@ -1,27 +1,48 @@
 /* responsive - Constrain the maximum width of the design for wide viewport */
 
 .container {
-    margin: auto;
+    margin: auto; /* browser defines it. align in center if element is display: block */
     max-width: 800px;
 }
 
-/* responsive - Increase the padding and increase text size for wide viewport */
-/* it is good enough for now */
+/* responsive - Increase margin, padding or text size for wide viewport */
 
 /* responsive - Float the Form element for wide viewport */
 
-#blurb {
+#headline #blurb {
     float: left;
-    width: 50%;
-    box-sizing: border-box;
+    width: 48%;
+    box-sizing: border-box; /* use border as width instead of content */
 }
 
-#register {
+#headline #register {
     float: right;
-    width: 50%;
-    box-sizing: border-box;
+    width: 48%;
+    box-sizing: border-box; /* use border as width instead of content */
+    margin-left: 1%;
 }
 
 #headline br {
     clear: both;
 }
+
+/* responsive - Float the Video element for wide viewport */
+
+#section3 ul {
+    float: left;
+    width: 48%;
+    box-sizing: border-box; /* use border as width instead of content */
+}
+
+#section3 .video {
+    float: right;
+    width: 48%;
+    box-sizing: border-box; /* use border as width instead of content */
+    margin-left: 1%;
+}
+
+#section3 br {
+    clear: both;
+}
+
+/* responsive - Tile the Images for wide viewport */

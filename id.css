@@ -43,6 +43,10 @@
     padding: 5%;
 }
 
+#section1 .images {
+    width: 100%;
+}
+
 #section2 {
     padding: 5%;
     color: black;
@@ -53,8 +57,14 @@
     padding: 5%;
 }
 
+#section3 .video {
+    width: 100%;
+}
+
 #footline {
     padding: 5%;
     color: white;
     background-color: hsl(8, 70%, 54%);
+    text-align: center;
 }
+
