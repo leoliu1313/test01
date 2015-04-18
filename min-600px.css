@@ -6,10 +6,9 @@
 }
 
 /* responsive - Increase the padding and increase text size for wide viewport */
+/* it is good enough for now */
 
-// it is good enough for now
-
-/* responsive - Increase the padding and increase text size for wide viewport */
+/* responsive - Float the Form element for wide viewport */
 
 #blurb {
     float: left;
