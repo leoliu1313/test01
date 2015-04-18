@@ -57,8 +57,25 @@
     padding: 5%;
 }
 
-#section3 .video {
-    width: 100%;
+/* responsive - resize a video on the fly */
+/* http://alistapart.com/article/creating-intrinsic-ratios-for-video */
+/* http://fitvidsjs.com/ */
+
+#section3 .video-resize {
+	position: relative; /* all child elements will position themselves in relation to this container */
+	padding-bottom: 56.25%; /* leave space for 16:9 iframe */
+	height: 0; /* give this element layout for IE box model */
+}
+
+#section3 .video-resize iframe,
+#section3 .video-resize div,
+#section3 .video-resize object, /* Safari */
+#section3 .video-resize embed { /* Firefox */
+	position: absolute; /* positioned over the padding area */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #footline {
@@ -67,4 +84,3 @@
     background-color: hsl(8, 70%, 54%);
     text-align: center;
 }
-
