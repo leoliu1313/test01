@@ -1,0 +1,23 @@
+#headline {
+    padding: 0.8em;
+    color: white;
+    background-color: black;
+    /* responsive - Add stylistic images */
+    background-image: url("http://googlesamples.github.io/web-fundamentals/samples/getting-started/your-first-multi-screen-site/hero.jpg");
+    background-size: cover;
+}
+
+#headline h1 {
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+#headline h2 {
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+#headline #register {
+    background-color: rgba(57,177, 164, 0.7);
+    padding: 1em;
+}
