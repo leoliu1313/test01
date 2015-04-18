@@ -1,5 +1,5 @@
 #headline {
-    padding: 0.8em;
+    padding: 5%;
     color: white;
     background-color: black;
     /* responsive - Add stylistic images */
@@ -12,9 +12,10 @@
     margin-bottom: 0;
 }
 
-#headline h2 {
+#headline h3 {
     line-height: 1em;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #headline #blurb {
@@ -23,15 +24,37 @@
 
 #headline #register {
     background-color: rgba(57, 177, 164, 0.7);
-    padding: 1em;
+    padding: 5%;
+}
+
+#headline #register label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+
+#headline #register input[type=submit] {
+    color: white;
+    background-color: hsl(8, 70%, 54%);
+    border: none;
+}
+
+#section1 {
+    padding: 5%;
 }
 
 #section2 {
+    padding: 5%;
     color: black;
     background-color: palevioletred;
 }
 
+#section3 {
+    padding: 5%;
+}
+
 #footline {
+    padding: 5%;
     color: white;
     background-color: hsl(8, 70%, 54%);
 }
