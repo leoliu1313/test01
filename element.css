@@ -2,14 +2,7 @@ html {
     font-family: Roboto, helvetica, arial, sans-serif;
     font-weight: 200;
     font-size: 18px;
-    padding: 0px;
-}
-
-div {
-    font-family: Roboto, helvetica, arial, sans-serif;
-    font-weight: 200;
-    font-size: 18px;
-    padding: 20px;
+    padding: 0;
 }
 
 h1 {
@@ -28,6 +21,14 @@ h3 {
     font-family: Roboto, helvetica, arial, sans-serif;
     font-weight: 200;
     font-size: 30px;
+}
+
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+    color: initial;
 }
 
 /*
