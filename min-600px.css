@@ -40,13 +40,13 @@
 
 #section3 ul {
     float: left;
-    width: 48%;
+    width: 28%;
     box-sizing: border-box; /* use border as width instead of content */
 }
 
 #section3 .video-float {
     float: right;
-    width: 48%;
+    width: 68%;
     box-sizing: border-box; /* use border as width instead of content */
     margin-left: 1%;
 }
