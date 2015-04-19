@@ -31,8 +31,6 @@
 /* responsive - Tile the Images for wide viewport */
 
 #section1 img {
-    display: inline-block;
-    vertical-align: middle;
     width: 33%;
 }
 

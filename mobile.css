@@ -44,6 +44,8 @@
 }
 
 #section1 img {
+    display: inline-block;
+    vertical-align: middle;
     width: 100%;
 }
 
