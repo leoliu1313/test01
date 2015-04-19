@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <!-- https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/ -->
+
     <!-- responsive across multiple screen sizes and device types -->
     <!-- responsive - Add a viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,16 +50,19 @@
                 <input type="tel" name="tel" id="tel" placeholder="(555) 555 5555" required>
                 <input type="submit" value="Sign up">
             </form>
-            <br>
+            <div class="float-clear"></div>
         </div>
     </div>
     <div id="section1">
         <div class="container">
             <h2>this is h2 inside div section3</h2>
             <p>this is p inside div section3</p>
-            <div> <img class="images" src="http://upload.wikimedia.org/wikipedia/commons/d/d8/Sand_Harbor_at_Lake_Tahoe_at_sunset.jpg" alt="tahoe lake"> </div>
-            <div> <img class="images" src="http://fc06.deviantart.net/fs71/i/2012/055/7/1/lake_tahoe_sunset_3_by_mrgo1-d4qudtr.jpg" alt="tahoe lake"> </div>
-            <div> <img class="images" src="http://c2.staticflickr.com/4/3656/3717160754_d3f6c55207_b.jpg" alt="tahoe lake"> </div>
+                <!-- inline-block without whitespace -->
+                <!-- https://css-tricks.com/fighting-the-space-between-inline-block-elements -->
+                <!-- http://www.matanich.com/2014/05/01/inline-block-for-vertically-aligned-grids --><!--
+                --><img alt="tahoe lake" src="http://upload.wikimedia.org/wikipedia/commons/d/d8/Sand_Harbor_at_Lake_Tahoe_at_sunset.jpg"><!--
+                --><img alt="tahoe lake" src="http://fc06.deviantart.net/fs71/i/2012/055/7/1/lake_tahoe_sunset_3_by_mrgo1-d4qudtr.jpg"><!--
+                --><img alt="tahoe lake" src="http://c2.staticflickr.com/4/3656/3717160754_d3f6c55207_b.jpg">
         </div>
     </div>
     <div id="section2">
@@ -74,12 +79,12 @@
                 <li>this is li 1 inside ul, div section1 - long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long</li>
                 <li>this is li 2 inside ul, div section1 - long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long</li>
             </ul>
-            <div class="video">
+            <div class="video-float">
                 <div class="video-resize">
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wgURQjsTVDM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-            <br>
+            <div class="float-clear"></div>
         </div>
     </div>
     <div id="footline">
