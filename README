@@ -1,5 +1,13 @@
 # test01
 
+# demo
+http://leoliu1313.github.io/test01/
+
+# reference
+https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site
+
+# NOTE
+
 http://en.wikipedia.org/wiki/Responsive_web_design
 Responsive web design (RWD)
 Mobile first, unobtrusive JavaScript, and progressive enhancement based on browser-, device-, or feature-detection
@@ -17,4 +25,3 @@ window.onload = function() {
     document.getElementById('date').onchange = validateDate;
 };
 
-http://leoliu1313.github.io/test01/
