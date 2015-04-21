@@ -43,8 +43,11 @@
     padding: 5%;
 }
 
+/* vertical-align: middle is the key to align images in the middle of text line */
+/* http://phrogz.net/css/vertical-align/index.html */
+
 #section1 img {
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     width: 100%;
 }
